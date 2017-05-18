@@ -1,0 +1,21 @@
+{
+  "name": "rx-ng1js",
+  "authors": [
+    "minhajkhan10p <minhajuddin.khan@tenpearls.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "rx-angular": "angular-rx#^1.1.3",
+    "angular": "^1.6.4"
+  }
+}
