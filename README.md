@@ -7,12 +7,20 @@ A small example of using observables in AngularJS
 
 # Javascript
 
+
+module: 
+
+```javascript
+angular.module('app', ['rx'])
+
+```
+
 controller:
 
 
 ```javascript
 
-angular.module('app', ['rx'])
+angular.module('app')
   .controller('appCtrl', function($scope, authService) {
     $scope.auth = (payload) => {
       authService.login(payload)
